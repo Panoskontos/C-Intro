@@ -81,3 +81,14 @@ foreach (string j in cars){
 
 int[] nums = {1,2,3,4,5};
 Console.WriteLine(nums);
+
+// Class
+
+class Car
+{
+    string color = "Blue";
+    int km = 11234;
+}
+
+
+
