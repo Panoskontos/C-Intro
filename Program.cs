@@ -40,7 +40,19 @@ Console.WriteLine(i);
 
 // Booleans
 int x = '6';
-int y = 6;
+int y = 8;
 Console.WriteLine(x == y);
 
 // if Statement
+if (y == 6)
+{
+    Console.WriteLine("God damn!");
+}
+else if (y == 7)
+{
+    Console.WriteLine("Lord knows");
+}
+else
+{
+    Console.WriteLine("It's just a game");
+}
