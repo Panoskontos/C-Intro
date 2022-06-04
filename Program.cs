@@ -82,12 +82,20 @@ foreach (string j in cars){
 int[] nums = {1,2,3,4,5};
 Console.WriteLine(nums);
 
-// Class
 
+
+
+// Class, Dont work for some reason
 class Car
 {
     string color = "Blue";
     int km = 11234;
+
+     static void Main(string[] args)
+  {
+    Car c = new Car();
+    Console.WriteLine(c.color);
+  }
 }
 
 
