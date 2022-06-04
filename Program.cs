@@ -24,8 +24,8 @@ Console.WriteLine(myfloat.GetType());
 
 double d = 9.2345;
 Console.WriteLine(d);
-int i = (int)d;
-Console.WriteLine(i);
+// int i = (int)d;
+// Console.WriteLine(i);
 
 
 // User Input
@@ -56,3 +56,28 @@ else
 {
     Console.WriteLine("It's just a game");
 }
+
+
+// While Loop
+
+int res = 0;
+while (res < 5) 
+{
+  Console.WriteLine(res);
+  res++;
+}
+
+// For Loop
+for (int i = 10; i > 5; i--) 
+{
+  Console.WriteLine(i);
+}
+
+// Array
+string[] cars = {"Hello","World","Lord","Knows"};
+foreach (string j in cars){
+    Console.WriteLine(j);
+}
+
+int[] nums = {1,2,3,4,5};
+Console.WriteLine(nums);
