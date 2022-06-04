@@ -3,8 +3,8 @@ Console.WriteLine("Hello, World!");
 
 Console.WriteLine(3 + 3);
 
-int x = 5;
-Console.WriteLine("I got " + x + " on it");
+// int x = 5;
+// Console.WriteLine("I got " + x + " on it");
 
 string f = "Panos";
 string l = "Sneako";
@@ -21,3 +21,26 @@ Console.WriteLine(myfloat.GetType());
 // char myLetter = 'D';
 // bool myBool = true;
 // string myText = "Hello";
+
+double d = 9.2345;
+Console.WriteLine(d);
+int i = (int)d;
+Console.WriteLine(i);
+
+
+// User Input
+// Console.WriteLine("Enter your name");
+// string Name = Console.ReadLine();
+// Console.WriteLine("This mofo name is " + Name.ToUpper());
+
+// Console.WriteLine("Enter your age");
+// int age = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("This mofo age is " + Math.Max(age,30));
+
+
+// Booleans
+int x = '6';
+int y = 6;
+Console.WriteLine(x == y);
+
+// if Statement
